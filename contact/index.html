@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CONTACT | えぬじー</title>
+    <meta name="description" content="NPO法人えぬじーへのお問い合わせ窓口。活動内容や取材、協力のご相談はこちらからお気軽にご連絡ください。" />
+
+    <!-- OGP -->
+    <meta property="og:title" content="CONTACT | えぬじー" />
+    <meta property="og:description" content="NPO法人えぬじーへのお問い合わせ窓口。活動内容や取材、協力のご相談はこちらからお気軽にご連絡ください。" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.enujii.com/contact/" />
+    <meta property="og:image" content="https://www.enujii.com/assets/images/hero.jpg" />
+    <meta property="og:site_name" content="えぬじー" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CONTACT | えぬじー" />
+    <meta name="twitter:description" content="NPO法人えぬじーへのお問い合わせ窓口。活動内容や取材、協力のご相談はこちらからお気軽にご連絡ください。" />
+    <meta name="twitter:image" content="https://www.enujii.com/assets/images/hero.jpg" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.enujii.com/contact/" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NPO法人えぬじー",
+        "url": "https://www.enujii.com/",
+        "logo": "https://www.enujii.com/assets/images/logo.jpg",
+        "description": "長崎で若者の「やりたい」を応援するNPO法人",
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "contactType": "General Inquiries",
+                "email": "info@enujii.com",
+                "areaServed": "JP",
+                "availableLanguage": [
+                    "Japanese"
+                ]
+            }
+        ]
+    }
+    </script>
+
+    <link rel="icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+
+<body>
+    <a class="sr-only" href="#main">メインコンテンツへ移動</a>
+
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a class="site-logo" href="../">
+                <img src="../assets/images/logo.jpg" alt="えぬじーのロゴ" />
+                <span>えぬじー</span>
+            </a>
+            <nav class="site-nav" aria-label="グローバルナビゲーション">
+                <ul class="nav-list">
+                    <li><a href="../">HOME</a></li>
+                    <li><a href="../about/index.html">ABOUT</a></li>
+                    <li><a href="../project/index.html">PROJECT</a></li>
+                    <li><a href="../member/index.html">MEMBER</a></li>
+                    <li><a href="../donation/index.html">DONATION</a></li>
+                    <li><a href="./index.html" aria-current="page">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="section section--muted">
+            <div class="container">
+                <h1 class="section__title">CONTACT</h1>
+                <p class="section__lead">お問い合わせ</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <p style="text-align: center;">
+                        お問い合わせは、以下のメールアドレスもしくはフォームにご連絡ください。
+                    </p>
+                    <p style="text-align: center; font-size: 0.9rem; color: var(--color-muted); margin-bottom: 1rem;">
+                        ※ スパム対策のため、メールアドレスの一部を記号で表示しています
+                    </p>
+                    <p style="text-align: center; font-weight: bold; font-size: 1.2rem; margin-bottom: 3rem;">
+                        info ⭐️ enujii.com
+                    </p>
+
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name" class="form-label">氏名</label>
+                            <input type="text" id="name" name="name" class="form-control" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">メールアドレス</label>
+                            <input type="email" id="email" name="email" class="form-control" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="source" class="form-label">えぬじーを知ったきっかけをお教えください</label>
+                            <select id="source" name="source" class="form-control">
+                                <option value="">選択してください</option>
+                                <option value="media">メディア（テレビ・新聞など）</option>
+                                <option value="website">ホームページ</option>
+                                <option value="other">その他</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label">題名</label>
+                            <input type="text" id="subject" name="subject" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">メッセージ本文</label>
+                            <textarea id="message" name="message" class="form-control"></textarea>
+                        </div>
+
+                        <div style="text-align: center; margin-top: 2rem;">
+                            <button type="submit" class="btn">送信</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <p>copyright © 2024 えぬじー</p>
+            <span style="color: var(--color-muted);">info ⭐️ enujii.com</span>
+        </div>
+    </footer>
+    <script src="../assets/js/menu.js"></script>
+</body>
+
+</html>
