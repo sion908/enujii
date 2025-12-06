@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>404 Not Found | えぬじー</title>
+    <meta name="description" content="お探しのページが見つかりませんでした。えぬじー公式サイトの404ページです。" />
+
+    <!-- OGP -->
+    <meta property="og:title" content="404 Not Found | えぬじー" />
+    <meta property="og:description" content="お探しのページが見つかりませんでした。えぬじー公式サイトの404ページです。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.enujii.com/404.html" />
+    <meta property="og:image" content="https://www.enujii.com/assets/images/404%20NotFound.png" />
+    <meta property="og:site_name" content="えぬじー" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="404 Not Found | えぬじー" />
+    <meta name="twitter:description" content="お探しのページが見つかりませんでした。えぬじー公式サイトの404ページです。" />
+    <meta name="twitter:image" content="https://www.enujii.com/assets/images/404%20NotFound.png" />
+
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <style>
+        .error-hero {
+            padding: clamp(3rem, 8vw, 8rem) 0;
+            text-align: center;
+        }
+
+        .error-hero figure {
+            margin: 0 auto;
+        }
+
+        .error-hero img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .error-description {
+            margin-top: 1rem;
+            font-size: 0.95rem;
+            color: var(--color-muted);
+        }
+
+        .hero__actions {
+            margin-top: 1.5rem;
+        }
+
+        .notice-card {
+            max-width: 720px;
+            margin: 2rem auto 0;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--color-border);
+            text-align: left;
+        }
+
+        .notice-card ul {
+            padding-left: 1.2rem;
+            margin: 0.75rem 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <a class="sr-only" href="#main">メインコンテンツへ移動</a>
+
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a class="site-logo" href="./">
+                <img src="./assets/images/logo.jpg" alt="えぬじーのロゴ" />
+                <span>えぬじー</span>
+            </a>
+            <nav class="site-nav" aria-label="グローバルナビゲーション">
+                <ul class="nav-list">
+                    <li><a href="./">HOME</a></li>
+                    <li><a href="./about/">ABOUT</a></li>
+                    <li><a href="./project/">PROJECT</a></li>
+                    <li><a href="./member/">MEMBER</a></li>
+                    <li><a href="./donation/">DONATION</a></li>
+                    <li><a href="./contact/">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="error-hero">
+            <div class="container">
+                <figure>
+                    <img src="./assets/images/404%20NotFound.png" alt="404 NotFound のイラスト" />
+                </figure>
+                <p class="error-description">
+                    URL が変更されたか、削除された可能性があります。トップページに戻るか、メニューから目的のページをお探しください。
+                </p>
+                <div class="hero__actions" style="justify-content: center;">
+                    <a class="btn" href="./">ホームに戻る</a>
+                </div>
+
+                <div class="notice-card">
+                    <strong>イラストについて</strong>
+                    <p>
+                        このページでは KawaiiLogos（さわらつき）制作の「404 NotFound」ロゴを <a href="https://github.com/sawaratsuki/KawaiiLogos" target="_blank" rel="noopener">KawaiiLogos リポジトリ</a> のライセンスに基づき使用しています。
+                    </p>
+                    <ul>
+                        <li>公式ロゴではなく二次創作であることをご理解ください。</li>
+                        <li>AI 等の生成モデルへの利用は禁止されている旨に従っています。</li>
+                        <li>ロゴ使用条件の詳細は <a href="https://github.com/sawaratsuki/KawaiiLogos" target="_blank" rel="noopener">KawaiiLogos リポジトリ</a> をご確認ください。</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <p>copyright © 2024 えぬじー</p>
+            <span style="color: var(--color-muted);">info ⭐️ enujii.com</span>
+        </div>
+    </footer>
+    <script src="./assets/js/menu.js"></script>
+</body>
+
+</html>
