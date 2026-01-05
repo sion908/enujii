@@ -289,7 +289,7 @@ a {
 
 .hero__grid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: clamp(3rem, 6vw, 5rem);
   align-items: center;
 }
